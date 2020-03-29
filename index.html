@@ -126,7 +126,6 @@
         </div>
       </div>
     </section>
-
     <section class="text-center back_dark padding_top" id="section2">
       <div class="front_text">Ruby<h2 class="back_text">Ruby</h2></div>
       <h3 class="content_title">Black Jack ゲーム</h3>
@@ -177,6 +176,237 @@
 
       </div>
     </section>
+
+    <section class="text-center padding_top" id="section3">
+      <div class="front_text">Ruby on Rails<h2 class="back_text">Ruby on Rails</h2></div>
+      <h3 class="content_title">オススメの一冊</h3>
+      <div class="container">
+
+        <div class="left_space">
+          <p>制作したアプリへのリンク</p>
+          <a href="https://book-share-yuki.herokuapp.com/" target="_blank"><img src="image/osusume_twitter.png" alt="この本をぜひとも紹介したいオススメの一冊"></a>
+        </div>
+
+        <div class="right_space">
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-chalkboard"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">アプリの概要</h4>
+              <ul>
+                <li>・オススメの本を紹介するアプリ</li>
+                <li>・オススメしたい本の画像と、それに対するコメントを記載する事が可能</li>
+                <li>・本の画像からAmazonの購入ページへ飛ぶ事が可能</li>
+                <li>・イイね！機能も搭載</li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">ソースコード</h4>
+              <a href="https://github.com/risottoupdate/book_share" class="github blue-link" target="_blank">GitHub(book_share)</a>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-lightbulb"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">こだわりポイント</h4>
+              <ul>
+                <li>・初めてRailsでCRUD処理を実装して制作したアプリ</li>
+                <li>・AWSにアプリをデプロイしています。AWSへのデプロイ方法をQiitaへ投稿</li>
+                <li>  →Qiita(<a href="#">AWS(EC2)にRailsアプリをイチから上げる方法</a>)</li>
+                <li>・ログインしないと閲覧できないページやパスワードを暗号化して保存する等の処理を実装</li>
+                <li>・TwitterAPIと連携して、Twitterでログイン可能。その際アイコン画像を受け取り表示</li>
+                <li>・AmazonAPIと連携して、アプリ内で書籍検索を実装予定（現在製作中）</li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-gem"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">使用したGem</h4>
+              <ul>
+                <li>・omniauth-twitter：TwitterAPI使用</li>
+                <li>・bootstrap：レスポンシブデザイン</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <h3 class="content_title">Weight-Controller</h3>
+      <div class="container">
+        <div class="left_space">
+          <p>制作したアプリへのリンク</p>
+          <a href="https://www.weight-controller.site/" target="_blank"><img src="image/top_logo2.png" alt="Weight-Controller"></a>
+          <p>制作したゲームの実行画面動画</p>
+          <video autoplay muted playsinline controls src="image/weight_movie.mov" class="capture_video"></video>
+        </div>
+        <div class="right_space">
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-chalkboard"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">アプリの概要</h4>
+              <ul>
+                <li>・『摂取カロリー」「消費カロリー」「体重」をメモしてグラフに表示するアプリ </li>
+                <li>・RailsのChart.jsとJavaScriptを使ってグラフ処理を実装してみたく作ったアプリ</li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">ソースコード</h4>
+              <a href="https://github.com/risottoupdate/weight_controller" class="github blue-link" target="_blank">GitHub(Weight_Controller)</a>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-lightbulb"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">こだわりポイント</h4>
+              <ul>
+                <li>・投稿したデータをModelで処理して、JavaScriptへ値を渡して画面に表示</li>
+                <li>・体重とカロリーの二軸を表示。メモリ数値も表示データに応じて動的に変化</li>
+                <li>・Deviseを使用したログイン機能実装</li>
+                <li>・Ransackを使用した検索機能の実装</li>
+                <li>・RSpecを使用してテストコードの実装（現在作成中）</li>
+                <li>・carrierwaveを使用した画像の投稿機能の実装（現在製作中）</li>
+                <li>・こちらもAWS上で動作しております</li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-gem"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">使用したGem</h4>
+              <ul>
+                <li>・Chart.js：グラフ描写</li>
+                <li>・gon：データ受け渡し</li>
+                <li>・Ransack：検索機能</li>
+                <li>・Devise：ログイン機能</li>
+                <li>・RSpec：テストコード</li>
+                <li>・pry-byebug：アプリデバッグ</li>
+                <li>・flatpickr：カレンダー機能</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <h3 class="content_title">学習記録アプリ<br>（共同開発）</h3>
+      <div class="container">
+        <div class="left_space">
+          <p>共同開発で制作中のアプリイメージ</p>
+          <a href="image/protime01.png" data-lightbox="group"><img src="image/protime01.png" width="300" alt="学習記録アプリ トップ画面"></a>
+          <a href="image/protime02.png" data-lightbox="group"><img src="image/protime02.png" width="300" alt="学習記録アプリ チャット画面"></a>
+        </div>
+        <div class="right_space">
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-chalkboard"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">アプリの概要</h4>
+              <ul>
+                <li>・日々学習した内容を記録し、参加者みんなで評価し合うアプリ</li>
+                <li>・PM＋4人チームで共同開発で制作</li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-lightbulb"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">こだわりポイント</h4>
+              <ul>
+                <li>・所属するオンラインサロンのサロンオーナー（Rubyエンジニア）がPMとなり、サロンメンバー４名と合同でアプリ開発</li>
+                <li>・trelloでタスク管理。挑戦したいタスクに参加し、完了したらタスクステータスを完了にする</li>
+                <li>・GitHubからCloneして、ローカル環境で作った機能をGitHubのリモートリポジトリへpushし、プルリクを送付。レビューして頂き問題無ければマージして頂く</li>
+                <li>・アプリ仕様書を作成し、メンバーと相談してブラッシュアップ中</li>
+                <li>・現在も作成中</li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-plus-square"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">補足資料</h4>
+              <p>作成中アプリの仕様書</p>
+              <a href="https://drive.google.com/open?id=1RYodM0tGL4jqXF1cEWml44fzneUfJeKa" target="_blank" class="blue-link">学習記録アプリ仕様書Ver.1.3.key（Googleドライブ）</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center back_dark padding_top" id="section4">
+      <div class="front_text">WordPress<h2 class="back_text">WordPress</h2></div>
+      <h3 class="content_title">自作テーマ作成</h3>
+      <div class="container">
+        <div class="left_space">
+          <p>自作テーマを利用した個人ブログ</p>
+          <a href="https://www.life-is-a-journey.work" target="_blank"><img src="image/life_if_a_journey.png" alt="LIFE IS A JOURNEY"></a>
+        </div>
+        <div class="right_space">
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-chalkboard"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">アプリの概要</h4>
+              <ul>
+                <li>・初めて作成したWordPressの自作テーマ</li>
+                <li>・ブログデザインから作成</li>
+                <li>・記事追加、アイキャッチ画像の表示、お問い合わせ機能、目次、検索機能等、一般的な機能は実装</li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">ソースコード</h4>
+              <a href="https://github.com/risottoupdate/life_is_a_journer" class="github blue-link">GitHub(life_is_a_journey)</a>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-lightbulb"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">こだわりポイント</h4>
+              <ul>
+                <li>・WordPressのコード作成のため、PHPの基礎を一通り学習</li>
+                <li>・投稿記事のURLをTwitterで投稿すると、サムネイル画像が表示されリンクとなる</li>
+                <li>・会話風な記事を作る事ができるふきだし機能を、ショートコードで作成</li>
+                <li>・レスポンシブ対応</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
     <section class="text-center padding_top" id="section5">
       <div class="front_text">Javascript<h2 class="back_text">Javascript</h2></div>
       <h3 class="content_title">スロットゲーム</h3>
@@ -279,7 +509,7 @@
         </div>
       </div>
     </section>
-
+ 
   </div>
 
   <footer class="footer_bottom">
